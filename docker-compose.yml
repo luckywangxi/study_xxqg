@@ -1,7 +1,7 @@
 version: "3.5"
 services:
   xuexi-auto:
-    image: jolanse/study_xxqg:latest
+    image: luckywangxi/study_xxqg:latest
     # 容器名
     container_name: xuexi-auto
     environment:
@@ -12,5 +12,5 @@ services:
       - ./config:/opt/config
     # 映射端口
     ports:
-      - 8080:8080
+      - 1234:1234
     restart: unless-stopped
