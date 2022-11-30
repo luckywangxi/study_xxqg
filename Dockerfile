@@ -23,7 +23,7 @@ RUN  chmod -R 777 /opt/study_xxqg && \
      cd /opt/ && \
      ./study_xxqg --init
 
-EXPOSE 8080
+EXPOSE 1234
 
 VOLUME /opt/config
 
